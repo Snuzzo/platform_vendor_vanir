@@ -35,7 +35,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.notification_sound=Proxima.ogg \
     ro.config.alarm_alert=Alarm_Beep_03.ogg \
     ro.modversion=$(Vanir_BUILD) \
-    ro.goo.version=$(Vanir_BUILD)
+    ro.goo.developerid=snuzzo \
+    ro.goo.rom=snuzzo-vanir \
+    ro.goo.version=$(shell date +"%m%d%y") \
+    ro.goo.board=$(TARGET_PRODUCT)
 
 # Build.Prop Tweaks
 PRODUCT_PROPERTY_OVERRIDES += \

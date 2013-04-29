@@ -40,11 +40,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Build.Prop Tweaks
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.checkjni=false \
-    dalvik.vm.dexopt-flags=v=n,o=v,m=y \
+    dalvik.vm.dexopt-flags=m=y \
     dalvik.vm.execution-mode=int:jit \
-    dalvik.vm.heapgrowthlimit=128m \
-    dalvik.vm.heapsize=384m \
-    dalvik.vm.heapstartsize=8m \
     dalvik.vm.lockprof.threshold=850 \
     dalvik.vm.stack-trace-file=/data/anr/traces.txt \
     dalvik.vm.verify-bytecode=false \
@@ -92,7 +89,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #    profiler.force_disable_ulog=1 \
 
 # Version information used on all builds
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=JDQ39 BUILD_ID=JDQ39 BUILD_VERSION_TAGS=release-keys USER=android-build BUILD_EST_DATE=$(shell date +"%s")
+PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=JDQ39E BUILD_ID=JDQ39E BUILD_VERSION_TAGS=release-keys USER=android-build BUILD_EST_DATE=$(shell date +"%s")
 
 # Blobs common to all devices
 PRODUCT_COPY_FILES += \

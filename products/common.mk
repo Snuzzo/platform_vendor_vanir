@@ -38,7 +38,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.developerid=snuzzo \
     ro.goo.rom=snuzzo-vanir \
     ro.goo.version=$(shell date +"%m%d%y") \
-    ro.goo.board=$(TARGET_PRODUCT)
+    ro.goo.board=$(echo $TARGET_PRODUCT | cut -f1 -d '_')
 
 # Build.Prop Tweaks
 PRODUCT_PROPERTY_OVERRIDES += \

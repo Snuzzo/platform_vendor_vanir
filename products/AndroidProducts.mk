@@ -24,4 +24,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/vanir_tilapia.mk \
 	$(LOCAL_DIR)/vanir_e980.mk \
 	$(LOCAL_DIR)/vanir_e975.mk \
-    $(LOCAL_DIR)/vanir_yuga.mk
+    $(LOCAL_DIR)/vanir_yuga.mk \
+    $(LOCAL_DIR)/vanir_vigor.mk

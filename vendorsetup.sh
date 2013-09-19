@@ -27,6 +27,7 @@ ZOMG_ITS_A_COMBO_COMBO()
     toroplus \
     e975 \
     e980 \
+    vigor \
     yuga;
   do
     add_lunch_combo vanir_$x-$1
